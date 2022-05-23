@@ -1,0 +1,306 @@
+.body {
+	background-color: #92b6d5 !important;
+	color: rgb(37, 42, 46);
+	min-height: 700px;
+}
+
+.nav-display {
+	display: flex !important;
+	flex-direction: row-reverse !important;
+}
+
+/* nav brand image */
+.img {
+	width: 18%;
+	padding: 0px 15px;
+}
+
+.nav-padding {
+	margin-right: -12rem !important;
+}
+
+.item-hover:hover {
+	background-color: blueviolet;
+	border-radius: 5px;
+}
+
+.img-font {
+	font-family: 'Smooch', cursive;
+	font-size: 44px;
+}
+
+.font {
+	font-size: 25px;
+}
+
+.bg-nav {
+	background-color: #1d262e !important;
+	color: aliceblue !important;
+}
+
+/* footer */
+footer {
+	background-color: #1d262e !important;
+	color: aliceblue !important;
+}
+
+
+/* all h1 */
+.h-1 {
+    color: #604f65 !important;
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.h5-title {
+    margin-bottom: 38px;
+}
+.button1 {
+    border: 1px solid black;
+    padding: 2px 21px;
+    background: #337c7a;
+    color: lightcyan;
+    margin: 2px 58px;
+    border-radius: 8px !important;
+}
+.button2 {
+    border: 1px solid black;
+    padding: 2px 31px;
+    background: #337c7a;
+    color: lightcyan;
+    margin: 2px 58px;
+    border-radius: 8px !important;
+}
+
+.color {
+	color: aliceblue !important;
+}
+
+.btn-s {
+	background-color: #337c7a;
+	padding: 11px 27px;
+	border-radius: 10px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.p-subscribe {
+	margin-top: 15px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.bg {
+	background-color: #1d262e;
+	color: aliceblue !important;
+}
+
+.width-imp {
+	width: 450px;
+}
+
+hr {
+
+	border: 2px solid;
+}
+
+.hr {
+	margin: 10px 160px;
+	border: 2px solid;
+}
+
+.total-number {
+	padding: 1px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 50px;
+
+}
+
+.number-padding {
+	padding: 2px 45px;
+}
+
+.description {
+	text-align: center;
+	margin: 0px 380px;
+	padding: 22px;
+}
+.flag {
+    width: 25px;
+    height: 25px;
+    margin: 30px 0px 0px 256px;
+    position: absolute;
+}
+
+/* footer menu */
+
+.f-p {
+	width: 300px;
+	margin: 20px 66px;
+}
+
+.social-media {
+	width: 400px;
+	display: flex;
+	margin: 20px;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-item {
+	padding: 0px 11px !important;
+	font-size: 44px;
+	text-align: center;
+}
+
+.social-item:hover {
+	color: #841b1b;
+	cursor: pointer;
+}
+
+.menu {
+	width: 400px;
+	display: flex;
+	margin: 20px;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.navMenu {
+
+	top: 50%;
+	left: 50%;
+
+}
+
+.navMenu a {
+	color: #f6f4e6;
+	text-decoration: none;
+	font-size: 1.2em;
+
+	display: inline-block;
+	width: 80px;
+
+}
+
+.navMenu a:hover {
+	color: #841b1b;
+}
+
+/* js  */
+.div-f{
+	justify-content: space-between;
+}
+
+.h1{
+
+}
+.h2{
+
+}
+
+
+
+/* media queary */
+@media only screen and (max-width: 600px) {
+	.description {
+		text-align: center;
+		margin: 0px 10px;
+		padding: 10px;
+	}
+
+	.nav-padding {
+		margin-right: 0 !important;
+	}
+
+	.total-number {
+		padding-bottom: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.width-imp {
+		width: 300px;
+		margin: auto !important;
+
+
+	}
+
+	.img {
+		width: 25%;
+		padding: 0px 5px;
+		margin: auto;
+
+	}
+
+	.media-d {
+		flex-direction: row-reverse;
+	}
+
+	.social-media {
+		width: auto;
+		display: flex;
+		margin: auto;
+		margin-bottom: 15px;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.social-item {
+		padding: 0px 8px !important;
+		font-size: 26px;
+		text-align: center;
+	}
+
+	.toggle-bar {
+		position: absolute;
+		margin: -55px -25px;
+	}
+
+	.d-flex {
+		display: flex !important;
+		flex-direction: column;
+		padding-top: 25px;
+	}
+
+	.menu {
+		width: auto;
+		display: flex;
+		margin: auto;
+		margin-bottom: 30px;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.f-p {
+		width: 260px;
+		margin: auto;
+	}
+
+	.navMenu a {
+		color: #f6f4e6;
+		text-decoration: none;
+		font-size: 1em;
+		display: inline-block;
+		width: 60px;
+		/* display: flex; */
+		/* flex-direction: row; */
+		/* flex-wrap: nowrap; */
+		/* align-content: center; */
+		/* justify-content: center; */
+		align-items: center;
+	}
+	.flag {
+		position: absolute;
+		margin: 57px 0px 0px 100px;
+	}
+}
