@@ -1,12 +1,14 @@
 
 const totalLearning = document.getElementById('totalLearning')
+const nameId = document.getElementById('nameId')
+const div = document.createElement('div')
 let i = 0
     function next(){
         i += 1
         if(i <=99){
         fetch(`http://api.aladhan.com/asmaAlHusna/${i}`)
             .then(res => res.json())
-            .then(data => display(data))
+            .then(data => displayNext(data))
             console.log(i)
             
             totalLearning.innerText = `Learning:${i}`
@@ -14,9 +16,8 @@ let i = 0
             alert('Alhamdulillah!!! You have learnt all the 99 names of Allah...')
         }
     }
-    const display = (names) => {
-        const nameId = document.getElementById('nameId')
-        const div = document.createElement('div')
+    const displayNext = (names) => {
+        
         div.innerHTML = `
             <div class="d-flex mx-auto div-f">
             <h3 class="h1">${names.data[0].name}</h3>
@@ -29,6 +30,13 @@ let i = 0
         
         
     }
+
+
+    // next button
+
+
+
+
 
 
 
