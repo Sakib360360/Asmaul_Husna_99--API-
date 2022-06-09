@@ -202,7 +202,7 @@ hr {
 
 
 
-/* media queary
+/* media queary */
 @media only screen and (max-width: 600px) {
 	.description {
 		text-align: center;
@@ -286,15 +286,11 @@ hr {
 		font-size: 1em;
 		display: inline-block;
 		width: 60px;
-		/* display: flex; */
-		/* flex-direction: row; */
-		/* flex-wrap: nowrap; */
-		/* align-content: center; */
-		/* justify-content: center; */
+		
 		align-items: center;
 	}
 	.flag {
 		position: absolute;
 		margin: 57px 0px 0px 100px;
 	}
-} */
+}
